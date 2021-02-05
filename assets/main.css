@@ -1,0 +1,15 @@
+body {background-color: black;
+margin: 70px;}
+.title {
+	color: white;
+	font-family: sans-serif;
+}
+.rings {
+	color: #add8e6;
+	font-family: sans-serif;
+	text-align: right;
+}
+.projects {
+	color: white;
+	font-family: sans-serif;	
+}
