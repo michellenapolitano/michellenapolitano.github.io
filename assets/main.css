@@ -1,17 +1,20 @@
-body {background-color: white;
-margin-top: 100px;
-margin-left: 150px;
-margin-right: 150px;
-margin-bottom: 100px;}
+body {
+  background-color: white;
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 60px;
+}
 
 .strawberry {
-    position: relative;
-    max-width: 250px;
+  position: relative;
+  max-width: 250px;
 }
 
 .strawberry:hover {
-animation: shake 0.5s;
-animation-iteration-count: infinite;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  cursor: zoom-in;
 }
 
 @keyframes shake {
@@ -30,13 +33,10 @@ animation-iteration-count: infinite;
 
 .title {
 	color: black;
-font-family: 'Asset', cursive;
-font-size: 20px;
+  font-family: 'Knewave', cursive;
+  font-size: 20px;
 	line-height: 1.6;
-	color: black;
-	-webkit-text-stroke: white 1px;
-    padding: 15px;
-      text-shadow: 6px 3px red;
+  padding: 15px;
 }
 .rings {
 	color: red;
@@ -45,12 +45,12 @@ font-size: 20px;
 }
 
 .projects {
-	color: black;
-font-family: 'Asset', cursive;
-font-size: 17px;
-	line-height: 1.6;
-	color: white;
-	-webkit-text-stroke: black 1px;
+  color: black;
+  font-family: 'Knewave', cursive;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+  -webkit-text-stroke: black 1px;
 }
 
 .links{
@@ -60,4 +60,12 @@ font-size: 17px;
 .studio {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 25px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: #a40000;
 }
